@@ -5,12 +5,12 @@ import {Link} from 'react-router-dom';
 function HomePage() {
     return (
         <div className="App">
-            <div class="navPane" id="indexNav">
+            <div className="navPane" id="indexNav">
     
             <header>
-                <p class="titleText">Swigert Designs
+                    <p className="titleText">Swigert Designs
                     <br />
-                    <span class="subTitle">Home Page</span>
+                        <span className="subTitle">Home Page</span>
                 </p>
                 <nav>
                     <ul>
