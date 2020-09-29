@@ -1,17 +1,18 @@
 import React from 'react';
 import '../App.css';
 import {Link} from 'react-router-dom';
+import logo from '../assets/swigert_designs_logo_white.png';
 
 function HomePage() {
     return (
         <div className="App">
-            <div class="navPane" id="indexNav">
+            <div className="navPane" id="indexNav">
     
             <header>
-                <p class="titleText">Swigert Designs
+                <h1 className="titleText">Swigert Designs
                     <br />
-                    <span class="subTitle">Home Page</span>
-                </p>
+                    <span className="subTitle">Home Page</span>
+                </h1>
                 <nav>
                     <ul>
                         <li><Link to='/aboutme'>About Me</Link></li>
@@ -21,9 +22,12 @@ function HomePage() {
                     </ul>
                 </nav>
             </header>
-    
             </div>
-        </div>
+            <div id='company-description'>
+                <img id='homepage-logo' src={logo} alt='Swigert Designs logo in white' />
+                <p>Swigert Designs is a design company run by Abigail Swigert, specializing in print, digital, and web design.</p>
+            </div>
+           </div>
     );
 }
 

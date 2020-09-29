@@ -73,20 +73,23 @@ nav a:hover {
     font-size: 1.75vw;
 }
 
-#abigailOnThunderbird {
+#company-description{
     float: right;
-    height: 100vh;
-    width: auto;
-    z-index: 1;
+    width: 60vw;
+    margin-top: 20vh;
+    margin-right: 5vw;
+    text-align: center;
+}
+
+#homepage-logo {
+    width: 60vw;
+    height: auto;
 }
 
 #bio {
-    z-index: 2;
     width: 30vw;
     height: auto;
-    position: absolute;
     background-color: #fff1eb;
-    margin: 20vh auto auto 35vw;
     padding: 20px;
     text-align: justify;
 }
@@ -113,7 +116,7 @@ nav a:hover {
     justify-content: space-evenly;
 }
 
-.annaPhoto {
+.portfoliohoto {
     width: 25vw;
     height: 25vw;
     object-fit: cover;
@@ -123,7 +126,7 @@ nav a:hover {
     border: solid 8px lightgray;
 }
 
-.annaPhoto:hover {
+.portfolioPhoto:hover {
     width: 27vw;
     height: 27vw;
 }
@@ -184,20 +187,8 @@ textarea {
 
 @media screen and (max-width: 1100px) {
 
-    #abigailOnThunderbird {
-        position: fixed;
-        right: 0;
-    }
-
     #bio {
-        z-index: 2;
         width: 50vw;
-        height: auto;
-        position: absolute;
-        background-color: #fff1eb;
-        margin: 70vh 0 0 15vw;
-        padding: 20px;
-        text-align: justify;
     }
 
     ::placeholder {

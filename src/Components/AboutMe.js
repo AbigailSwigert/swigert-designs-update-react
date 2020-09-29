@@ -4,12 +4,12 @@ import '../App.css';
 function AboutMe() {
   return (
     <div className="App">
-      <div class="navPane">
+      <div className="navPane">
 
         <header>
-            <p class="titleText">Abigail Swigert
+            <p className="titleText">Abigail Swigert
                 <br />
-                <span class="subTitle">About Me</span>
+                <span className="subTitle">About Me</span>
             </p>
             <nav>
                 <ul>
@@ -33,10 +33,10 @@ function AboutMe() {
           </ul>
         </p>
         <div id="music">
-            <a href="https://www.youtube.com/watch?v=KCec0v0Btbo" target="_blank"><img class="musicIcons" src="Index Images/ECHO.png" /></a>
-            <a href="https://www.youtube.com/watch?v=wHK1q8srtMo" target="_blank"><img class="musicIcons" src="Index Images/OTHER WORLDS THAN THESE.png" /></a>
-            <a href="https://www.youtube.com/watch?v=0dG9pXeOgT0" target="_blank"><img class="musicIcons" src="Index Images/TRIALS.png" /></a>
-            <a href="https://www.youtube.com/watch?v=MfqVlwetWfY" target="_blank"><img class="musicIcons" src="Index Images/FAULTLINE.png" /></a>
+            <a href="https://www.youtube.com/watch?v=KCec0v0Btbo" target="_blank"><img className="musicIcons" src="Index Images/ECHO.png" /></a>
+            <a href="https://www.youtube.com/watch?v=wHK1q8srtMo" target="_blank"><img className="musicIcons" src="Index Images/OTHER WORLDS THAN THESE.png" /></a>
+            <a href="https://www.youtube.com/watch?v=0dG9pXeOgT0" target="_blank"><img className="musicIcons" src="Index Images/TRIALS.png" /></a>
+            <a href="https://www.youtube.com/watch?v=MfqVlwetWfY" target="_blank"><img className="musicIcons" src="Index Images/FAULTLINE.png" /></a>
         </div>
         <small>Click these icons to hear some of my favorite STARSET songs (Opens in YouTube).</small>
       </div>
