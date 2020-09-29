@@ -28,7 +28,7 @@ html, body {
     }
 }
 
-#indexNav {
+.full-bg {
     z-index: -1;
     width: 100vw;
 }
@@ -87,4 +87,34 @@ nav a:hover {
     height: auto;
     left: 20px;
     top: 20px;
+}
+
+#bio {
+    z-index: 2;
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    background-color: #fff1eb;
+    margin: 50vh auto auto 35vw;
+    padding: 20px;
+    text-align: justify;
+}
+
+#music {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.musicIcons {
+    width: 50px;
+    height: auto;
+}
+
+#headshot {
+    width: auto;
+    height: 100vh;
+    position: fixed;
+    right: -10vw;
+    overflow: hidden;
 }

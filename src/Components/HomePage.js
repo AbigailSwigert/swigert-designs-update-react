@@ -6,7 +6,7 @@ import logo from '../assets/swigert_designs_logo_white.png';
 function HomePage() {
     return (
         <div className="App">
-            <div className="navPane" id="indexNav">
+            <div className="navPane full-bg">
                 <Link to='/'><img id='logo' src={logo} alt='Swigert Designs logo in white' /></Link>
                 <header>
                     <h1 className="titleText">Home Page</h1>
