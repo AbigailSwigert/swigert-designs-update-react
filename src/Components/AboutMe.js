@@ -1,24 +1,9 @@
 import React from 'react';
 import '../App.css';
-import {Link} from 'react-router-dom';
 
 function AboutMe() {
     return (
         <div className="App">
-            <div className="navPane full-bg">
-                <Link to='/'><img id='logo' src={require('../assets/swigert_designs_logo_white.png')} alt='Swigert Designs logo in white' /></Link>
-                <header>
-                    <h1 className="titleText">About Me</h1>
-                    <nav>
-                        <ul>
-                            <li><Link to='/aboutme'>About Me</Link></li>
-                            <li><Link to='/resume'>Resume</Link></li>
-                            <li><Link to='/portfolio'>Portfolio</Link></li>
-                            <li><Link to='/contact'>Contact</Link></li>
-                        </ul>
-                    </nav>
-                </header>
-            </div>
 
             <div id="bio">
                 <p>Hello, my name is Abigail Swigert! I Graduated from UNT in 2018 with a B.A. in Design Management. After graduation, I worked as a Graphic Designer in Downtown Dallas for 2 years. Then, in May of 2020 I enrolled in a full-stack bootcamp to make a career change to software development, after graduating from TEKcamp I accepted a job as a Jr. Developer at TEKsystems Global Services .<br /><br />
@@ -30,6 +15,7 @@ function AboutMe() {
                         <li>Playing Board/Card Games</li>
                     </ul>
                 </p>
+
                 <div id="music">
                     <a href="https://www.youtube.com/watch?v=KCec0v0Btbo" target="_blank" rel="noopener noreferrer" aria-roledescription="image">
                         <img className="musicIcons" src={require('../assets/ECHO.png')} alt="Circular icon for the Starset song Echo in black and white" />
@@ -48,9 +34,13 @@ function AboutMe() {
                     </a>
                     
                 </div>
+
                 <small>Click these icons to hear some of my favorite STARSET songs (Opens YouTube in another window).</small>
+
             </div>
+
             <img id="headshot" src={require('../assets/Profile Photo.jpg')} alt="Abigail Swigert" />
+        
         </div>
   );
 }

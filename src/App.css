@@ -10,14 +10,15 @@ html, body {
     color: rgb(75, 75, 75);
 }
 
-.navPane{
-    width: 30vw;
+#navPane{
+    width: 100vw;
     height: 100vh;
     position: fixed;
     margin: 0;
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     padding-left: 3vw;
     padding-top: 10vh;
+    z-index: -1;
 }
 
 @keyframes slideRight {
@@ -29,11 +30,6 @@ html, body {
         color: rgba(75, 75, 75, 1.0);
         left: 0;
     }
-}
-
-.full-bg {
-    z-index: -1;
-    width: 100vw;
 }
 
 header {
@@ -74,6 +70,14 @@ nav a {
 
 nav a:hover {
     font-size: 1.75vw;
+}
+
+.content-area {
+    width: 66vw;
+    float: right;
+    min-height: 100vh;
+    background-color: white;
+    z-index: 1;
 }
 
 #company-description{
@@ -120,12 +124,6 @@ nav a:hover {
     position: fixed;
     right: -10vw;
     overflow: hidden;
-}
-
-.content-area {
-    width: 66vw;
-    float: right;
-    min-height: 100vh;
 }
 
 #portfolio {
