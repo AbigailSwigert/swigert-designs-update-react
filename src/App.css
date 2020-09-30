@@ -8,6 +8,7 @@ html, body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     color: rgb(75, 75, 75);
+    scrollbar-width: none;
 }
 
 #navPane{
@@ -21,20 +22,19 @@ html, body {
     z-index: -1;
 }
 
-@keyframes slideRight {
+@keyframes slideUp {
     from {
-        color: rgba(75, 75, 75, 0.0);
-        left: -2vw;
+        opacity: 0;
+        bottom: -30vh;
     }
     to {
-        color: rgba(75, 75, 75, 1.0);
-        left: 0;
+        opacity: 1;
+        bottom: 0;
     }
 }
 
 header {
     position: relative;
-    animation: slideRight 3s;
     height: 80vh;
 }
 
@@ -130,6 +130,8 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    position: relative;
+    animation: slideUp 2s;
 }
 
 .img-container {

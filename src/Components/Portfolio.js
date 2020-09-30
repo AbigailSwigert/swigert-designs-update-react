@@ -8,7 +8,7 @@ function Portfolio(props) {
 
                 <div className="img-container">
 
-                    <img className="portfolio-img" src={require('../portfolio_photos/3D Marble Rendering.png')} alt="3D rendering of Whole Herbs bagged powder products on marble platforms" />
+                    <img className="portfolio-img" src={require('../portfolio_photos/3D Marble Rendering.jpg')} alt="3D rendering of Whole Herbs bagged powder products on marble platforms" />
 
                 </div>
 
@@ -20,7 +20,7 @@ function Portfolio(props) {
 
                 <div className="img-container">
                     
-                    <img className="portfolio-img" src={require('../portfolio_photos/Green Leaf Bag Design- Abigail.png')} alt="3D rendering of Green Leaf bag of organic hemp seeds, front and back" />
+                    <img className="portfolio-img" src={require('../portfolio_photos/Green Leaf Bag Design- Abigail.jpg')} alt="3D rendering of Green Leaf bag of organic hemp seeds, front and back" />
                     
                 </div>
 
@@ -32,13 +32,13 @@ function Portfolio(props) {
 
                 <div className="img-container">
                     
-                    <img className="portfolio-img" src={require('../portfolio_photos/OPMS Gold Purple n Pink 2 Page.png')} alt="2 page magazine ad, purple and pink background with OPMS gold products floating on left side and text on the right side" />
+                    <img className="portfolio-img" src={require('../portfolio_photos/OPMS Gold Purple n Pink 2 Page.jpg')} alt="2 page magazine ad, purple and pink background with OPMS gold products floating on left side and text on the right side" />
                     
                 </div>
 
                 <div className="img-container">
                     
-                    <img className="portfolio-img" src={require('../portfolio_photos/Top Kratom Bag Mockup.png')} alt="3D rending of Top Kratom bagged powered Kratom, front and back" />
+                    <img className="portfolio-img" src={require('../portfolio_photos/Top Kratom Bag Mockup.jpg')} alt="3D rending of Top Kratom bagged powered Kratom, front and back" />
                     
                 </div>
 
@@ -50,7 +50,7 @@ function Portfolio(props) {
 
                 <div className="img-container">
                     
-                    <img className="portfolio-img" src={require('../portfolio_photos/Whole Herbs Holiday 1 Page- Abigail.png')} alt="1 page magazine ad of kratom capsules in shape of Christmas tree on white background" />
+                    <img className="portfolio-img" src={require('../portfolio_photos/Whole Herbs Holiday 1 Page- Abigail.jpg')} alt="1 page magazine ad of kratom capsules in shape of Christmas tree on white background" />
                     
                 </div>
 
@@ -62,7 +62,7 @@ function Portfolio(props) {
 
                 <div className="img-container">
                     
-                    <img className="portfolio-img" src={require('../portfolio_photos/Glass Blower Layout.png')} alt="2 page magazine spread of man holing torch to glass atr piece with article title and text wrapping around the glass" />
+                    <img className="portfolio-img" src={require('../portfolio_photos/Glass Blower Layout.jpg')} alt="2 page magazine spread of man holing torch to glass atr piece with article title and text wrapping around the glass" />
                     
                 </div>
 

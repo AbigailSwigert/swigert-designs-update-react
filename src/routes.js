@@ -8,10 +8,10 @@ import Contact from './Components/Contact';
 
 export default(
     <Switch>
-        <Route path='/' exact render={(props) => <HomePage {...props} />} />
-        <Route path='/aboutme' render={(props) => <AboutMe {...props} />} />
-        <Route path='/resume' render={(props) => <Resume {...props} />} />
-        <Route path='/portfolio' render={(props) => <Portfolio {...props} />} />
-        <Route path='/contact' render={(props) => <Contact {...props} />} />
+        <Route path='/' exact component={HomePage} />
+        <Route path='/aboutme' component={AboutMe} />
+        <Route path='/resume' component={Resume} />
+        <Route path='/portfolio' component={Portfolio} />
+        <Route path='/contact' component={Contact} />
     </Switch>
 );
