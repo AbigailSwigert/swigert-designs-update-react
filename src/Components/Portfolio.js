@@ -4,6 +4,8 @@ import '../App.css';
 function Portfolio(props) {
     return (
         <div className="content-area">
+            {/* need to make items clickable so a larger image appears with more information about the project */}
+            {/* add Yolly_Dolly streaming overlay and logo */}
             <div id="portfolio">
 
                 <div className="img-container">

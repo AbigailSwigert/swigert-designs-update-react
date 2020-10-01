@@ -5,6 +5,7 @@ function Contact() {
     return (
         <div className="content-area">
              
+             {/* add contact info and form */}
 
         </div>
     );

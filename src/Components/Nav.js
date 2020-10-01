@@ -53,18 +53,29 @@ function Nav() {
 
     return (
         <div id="navPane" onLoad={checkRefresh} value="">
+
             <Link to='/' onClick={updateTitle}><img id='logo' src={logo} alt='Swigert Designs logo in white' /></Link>
+
             <header id="full-navbar">
+
                 <h1 id="titleText"> </h1> 
+
                 <nav>
+
                     <ul id="navList">
                         <li><Link to='/aboutme' onClick={updateTitle}>About Me</Link></li>
+
                         <li><Link to='/resume' onClick={updateTitle}>Resume</Link></li>
+
                         <li><Link to='/portfolio' onClick={updateTitle}>Portfolio</Link></li>
+                        
                         <li><Link to='/contact' onClick={updateTitle}>Contact</Link></li>
                     </ul>
+
                 </nav>
+
             </header>
+
         </div>
     );
 }

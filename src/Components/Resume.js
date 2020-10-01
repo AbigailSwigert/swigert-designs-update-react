@@ -5,6 +5,7 @@ function Resume() {
     return (
         <div className="content-area">
 
+            {/* add resume, possibly recreated in HTML */}
             
         </div>
     );
