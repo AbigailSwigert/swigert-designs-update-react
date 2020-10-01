@@ -9,6 +9,7 @@ function Nav() {
 
     function checkRefresh() {
         var target = document.getElementById('titleText');
+        const fullNavbar = document.getElementById('full-navbar');
         if(document.getElementById('navPane').value === "") {
             document.getElementById('navPane').value = "1";
         } else {
@@ -32,6 +33,8 @@ function Nav() {
                     target.innerHTML = 'Swigert Designs';
                     break;
             }
+            fullNavbar.classList.add('animate');
+            setTimeout(() => {fullNavbar.classList.remove('animate');}, 2000);
         }
     }
 
