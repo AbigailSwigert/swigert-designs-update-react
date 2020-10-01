@@ -7,7 +7,7 @@ import Nav from './Components/Nav';
 function App() {
   return (
     <Router>
-        <Nav></Nav>
+        <Nav />
         {routes}
     </Router>
   );
