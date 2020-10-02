@@ -1,0 +1,50 @@
+#bio {
+    width: 30vw;
+    position: relative;
+    top: 8vh;
+    left: 5vw;
+}
+
+#music {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.musicIcons {
+    width: 50px;
+    height: auto;
+}
+
+#aboutme-area {
+    width: 66vw;
+    float: right;
+    min-height: 100vh;
+}
+
+#headshot {
+    position: absolute;
+    z-index: 1;
+    right: 5vw;
+    bottom: 0;
+    height: 36.5vw;
+    width: auto;
+}
+
+#circle-and-shapes {
+    z-index: 2;
+    position: absolute;
+    right: 5vw;
+    bottom: 0;
+    height: 36.5vw;
+    width: auto;
+}
+
+#x-shapes {
+    z-index: 3;
+    position: absolute;
+    height: 38vh;
+    width: auto;
+    bottom: 5.5vh;
+    right: 6.5vw;
+}

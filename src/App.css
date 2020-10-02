@@ -85,103 +85,10 @@ nav a:hover {
     z-index: 1;
 }
 
-#company-description{
-    float: right;
-    width: 50vw;
-    margin-top: 28vh;
-    margin-right: 10vw;
-    text-align: center;
-}
-
 #logo {
     position: absolute;
     width: 250px;
     height: auto;
     left: 20px;
     top: 20px;
-}
-
-#bio {
-    width: 30vw;
-    position: relative;
-    top: 8vh;
-    left: 5vw;
-}
-
-#music {
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.musicIcons {
-    width: 50px;
-    height: auto;
-}
-
-#aboutme-area {
-    width: 66vw;
-    float: right;
-    min-height: 100vh;
-}
-
-#headshot {
-    position: absolute;
-    z-index: 1;
-    right: 5vw;
-    bottom: 0;
-    height: 36.5vw;
-    width: auto;
-}
-
-#circle-and-shapes {
-    z-index: 2;
-    position: absolute;
-    right: 5vw;
-    bottom: 0;
-    height: 36.5vw;
-    width: auto;
-}
-
-#x-shapes {
-    z-index: 3;
-    position: absolute;
-    height: 38vh;
-    width: auto;
-    bottom: 5.5vh;
-    right: 6.5vw;
-}
-
-#portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.img-container {
-    max-width: 320px;
-    max-height: 320px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-}
-
-.portfolio-img {
-    max-width: 300px;
-    max-height: 300px;
-    width: 25vw;
-    height: 25vw;
-    object-fit: cover;
-    border: 5px solid lightgrey;
-    margin: 10px;
-}
-
-.portfolio-img:hover {
-    border: 5px solid #ace0f9;
-    width: 27vw;
-    height: 27vw;
-    max-width: 320px;
-    max-height: 320px;
-    margin: 0;
 }

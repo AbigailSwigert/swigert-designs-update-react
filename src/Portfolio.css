@@ -1,0 +1,33 @@
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img-container {
+    max-width: 320px;
+    max-height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.portfolio-img {
+    max-width: 300px;
+    max-height: 300px;
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+    border: 5px solid lightgrey;
+    margin: 10px;
+}
+
+.portfolio-img:hover {
+    border: 5px solid #ace0f9;
+    width: 27vw;
+    height: 27vw;
+    max-width: 320px;
+    max-height: 320px;
+    margin: 0;
+}
