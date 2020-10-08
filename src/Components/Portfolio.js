@@ -17,19 +17,19 @@ function Portfolio(props) {
 
                 <div className="img-container">
                     
-                    <img className="portfolio-img" src={require('../portfolio_photos/Choir-Link-Image.png')} alt="Silhouette of a stallion head in front of flowing music notes" />
+                    <img className="portfolio-img" src={require('../portfolio_photos/Puff-Co-Peak-Lightning-Full.gif')} alt="" />
                     
                 </div>
 
                 <div className="img-container">
                     
-                    <img className="portfolio-img" src={require('../portfolio_photos/Green Leaf Bag Design- Abigail.jpg')} alt="3D rendering of Green Leaf bag of organic hemp seeds, front and back" />
+                    <img className="portfolio-img" src={require('../portfolio_photos/Waz-Shop.gif')} alt="" />
                     
                 </div>
 
                 <div className="img-container">
                     
-                    <img className="portfolio-img" src={require('../portfolio_photos/Kratom Kaps Tropical Woman 1 Page.jpg')} alt="Woman in heavy make up holding Kratom Kaps bag of Indo Kratom, surrounded by tropical leaves and fog" />
+                    <img className="portfolio-img" src={require('../portfolio_photos/Whole Herbs Exploded Bottle 1 Page.jpg')} alt="" />
                     
                 </div>
 
@@ -41,43 +41,7 @@ function Portfolio(props) {
 
                 <div className="img-container">
                     
-                    <img className="portfolio-img" src={require('../portfolio_photos/Top Kratom Bag Mockup.jpg')} alt="3D rending of Top Kratom bagged powered Kratom, front and back" />
-                    
-                </div>
-
-                <div className="img-container">
-                    
-                    <img className="portfolio-img" src={require('../portfolio_photos/Waz-Shop.gif')} alt="Red and Black text reading 'Waz Shop' in front of blurred text shifting back and forth over red and black background of hexagons" />
-                    
-                </div>
-
-                <div className="img-container">
-                    
-                    <img className="portfolio-img" src={require('../portfolio_photos/Whole Herbs Holiday 1 Page- Abigail.jpg')} alt="1 page magazine ad of kratom capsules in shape of Christmas tree on white background" />
-                    
-                </div>
-
-                <div className="img-container">
-                    
-                    <img className="portfolio-img" src={require('../portfolio_photos/Vaping Woman.png')} alt="Email banner of woman vaping in front of colorful orange background, next to text" />
-                    
-                </div>
-
-                <div className="img-container">
-                    
-                    <img className="portfolio-img" src={require('../portfolio_photos/Glass Blower Layout.jpg')} alt="2 page magazine spread of man holing torch to glass atr piece with article title and text wrapping around the glass" />
-                    
-                </div>
-
-                <div className="img-container">
-                    
-                    <img className="portfolio-img" src={require('../portfolio_photos/Headspace Logo.png')} alt="Light grey Head Space logo on white background" />
-                    
-                </div>
-
-                <div className="img-container">
-                    
-                    <img className="portfolio-img" src={require('../portfolio_photos/Puff-Co-Peak-Lightning-Full.gif')} alt="Puffco Peak lightening dab rig floating in front of white smoke and lime green background" />
+                    <img className="portfolio-img" src={require('../portfolio_photos/Yolly_Dolly Offline Banner.jpg')} alt="" />
                     
                 </div>
 
