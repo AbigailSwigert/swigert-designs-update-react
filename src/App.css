@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-/* #fff1eb beige 
-    #ace0f9 blue */
-
 html, body {
     margin: 0;
     padding: 0;
@@ -28,7 +25,7 @@ html, body {
     position: fixed;
     margin: 0;
     /* background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); */
-    background-image: linear-gradient(45deg, #84fab0 0%, #8fd3f4 70%);
+    background-image: linear-gradient(35deg, #84fab0 0%, #8fd3f4 50%);
     padding-left: 3vw;
     padding-top: 10vh;
     z-index: -1;
@@ -42,6 +39,15 @@ html, body {
 #titleText {
     font-weight: 600;
     font-size: 3.5vw;
+    line-height: 50%;
+    margin-top: 5%;
+}
+
+#subtitleText {
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 0;
+
 }
 
 .animate {
