@@ -2,15 +2,16 @@ import React from 'react';
 import '../App.css';
 import {Link, useLocation} from 'react-router-dom';
 import logo from '../assets/swigert_designs_logo_white.png';
+import {updateTitle} from '../App';
 
 function Nav() {
     const location = useLocation();
     const currentPath = location.pathname;
 
     function checkRefresh() {
-        var title = document.getElementById('titleText');
-        const fullNavbar = document.getElementById('full-navbar');
+        const title = document.getElementById('titleText');
         const subtitle = document.getElementById('subtitleText');
+        const fullNavbar = document.getElementById('full-navbar');
         if(document.getElementById('navPane').value === "") {
             document.getElementById('navPane').value = "1";
         } else {
@@ -31,6 +32,27 @@ function Nav() {
                     title.innerHTML = 'Contact';
                     subtitle.innerHTML = "Email Abigail";
                     break;
+                case '/wholeherbsinsta':
+                case '/wholeherbsmag':
+                    title.innerHTML = "Portfolio";
+                    subtitle.innerHTML = "Whole Herbs";
+                    break;
+                case '/puffco':
+                    title.innerHTML = "Portfolio";
+                    subtitle.innerHTML = "Puff Co Peak";
+                    break;
+                case '/wazshop':
+                    title.innerHTML = "Portfolio";
+                    subtitle.innerHTML = "Waz Shop";
+                    break;
+                case '/opms':
+                    title.innerHTML = "Portfolio";
+                    subtitle.innerHTML = "OPMS Kratom";
+                    break;
+                case '/yolly_dolly':
+                    title.innerHTML = "Portfolio";
+                    subtitle.innerHTML = "Yolly_Dolly";
+                    break;
                 default:
                     title.innerHTML = 'Swigert Designs';
                     subtitle.innerHTML = "Abigail Swigert";
@@ -41,38 +63,6 @@ function Nav() {
         }
     }
 
-    function updateSubtitle() {
-        const subtitle = document.getElementById('subtitleText');
-        const title = document.getElementById('titleText').innerHTML;
-        switch(title) {
-            case "Home Page":
-                subtitle.innerHTML = "Abigail Swigert's Bio";
-                break;
-            case "Resume":
-                subtitle.innerHTML = "Abigail's Qualifications";
-                break;
-            case "Portfolio":
-                subtitle.innerHTML = "Abigail's Past Work";
-                break;
-            case "Contact":
-                subtitle.innerHTML = "Email Abigail";
-                break;
-            default:
-                subtitle.innerHTML = "Abigail Swigert";
-                break;
-        }
-    }
-
-    function updateTitle(e) {
-        var target = e.target || e.srcElement;
-        const title = document.getElementById('titleText');
-        const fullNavbar = document.getElementById('full-navbar');
-        title.innerHTML = target.innerHTML;
-        updateSubtitle();
-        fullNavbar.classList.add('animate');
-        setTimeout(() => {fullNavbar.classList.remove('animate');}, 2000);
-    }
-
     return (
         <div id="navPane" onLoad={checkRefresh} value="">
 
@@ -80,19 +70,19 @@ function Nav() {
 
             <header id="full-navbar">
 
-                <h1 id="titleText"> </h1> 
+                <h1 id="titleText"></h1> 
                 <h2 id="subtitleText"></h2>
 
                 <nav>
 
                     <ul id="navList">
-                        <li><Link to='/' onClick={updateTitle}>Home Page</Link></li>
+                        <li><Link to='/' onClick={() => updateTitle("homepage")}>Home Page</Link></li>
 
-                        <li><Link to='/resume' onClick={updateTitle}>Resume</Link></li>
+                        <li><Link to='/resume' onClick={() => updateTitle("resume")}>Resume</Link></li>
 
-                        <li><Link to='/portfolio' onClick={updateTitle}>Portfolio</Link></li>
+                        <li><Link to='/portfolio' onClick={() => updateTitle("portfolio")}>Portfolio</Link></li>
                         
-                        <li><Link to='/contact' onClick={updateTitle}>Contact</Link></li>
+                        <li><Link to='/contact' onClick={() => updateTitle("contact")}>Contact</Link></li>
                     </ul>
 
                 </nav>
