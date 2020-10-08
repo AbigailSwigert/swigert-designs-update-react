@@ -42,7 +42,7 @@ export function updateTitle(newTitle) {
             break;
         case 'puffco':
             title.innerHTML = "Portfolio";
-            subtitle.innerHTML = "Puff Co Peak";
+            subtitle.innerHTML = "Puffco Peak";
             break;
         case 'wazshop':
             title.innerHTML = "Portfolio";
