@@ -3,7 +3,7 @@ import React from 'react';
 function WholeHerbsInsta() {
     return (
         <div className="content-area" id="flex-content">
-            <img className="portfolio-item" src={require('../portfolio_photos/3D Marble Rendering.jpg')} />
+            <img className="portfolio-item" src={require('../portfolio_photos/3D Marble Rendering.jpg')} alt="3D rendering of Whole Herbs bagged powder products on marble platforms" />
             <aside className="portfolio-item-info">
                 <h2>Client:</h2>
                 <p>Whole Herbs Kratom</p>

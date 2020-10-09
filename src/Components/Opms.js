@@ -4,9 +4,9 @@ function Opms() {
     return (
         <div className="content-area" id="flex-content">
             <div className="portfolio-item-set">
-                <img className="portfolio-item" src={require('../portfolio_photos/OPMS Gold Purple n Pink 2 Page.jpg')} />
-                <img className="portfolio-item" src={require('../portfolio_photos/OPMS Silver Purple n Pink 2 Page.jpg')} />
-                <img className="portfolio-item" src={require('../portfolio_photos/OPMS Liquid Purple n Pink 2 Page.jpg')} />
+                <img className="portfolio-item" src={require('../portfolio_photos/OPMS Gold Purple n Pink 2 Page.jpg')} alt="2 page magazine ad, purple and pink background with OPMS Gold products floating on left side and text on the right side" />
+                <img className="portfolio-item" src={require('../portfolio_photos/OPMS Silver Purple n Pink 2 Page.jpg')} alt="2 page magazine ad, purple and pink background with OPMS Silver products floating on left side and text on the right side"  />
+                <img className="portfolio-item" src={require('../portfolio_photos/OPMS Liquid Purple n Pink 2 Page.jpg')} alt="2 page magazine ad, purple and pink background with OPMS Liquid products floating on left side and text on the right side"  />
             </div>
             <aside className="portfolio-item-info">
                 <h2>Client:</h2>

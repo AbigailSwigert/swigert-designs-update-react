@@ -3,7 +3,7 @@ import React from 'react';
 function Puffco() {
     return (
         <div className="content-area" id="flex-content">
-            <img className="portfolio-item" src={require('../portfolio_photos/Puff-Co-Peak-Lightning-Full.gif')} />
+            <img className="portfolio-item" src={require('../portfolio_photos/Puff-Co-Peak-Lightning-Full.gif')} alt="GIF of PuffCo Peak Lightning Dab Rig floating in front of lime green background and white smoke" />
             <aside className="portfolio-item-info">
                 <h2>Client:</h2>
                 <p>Partynuts.com</p>

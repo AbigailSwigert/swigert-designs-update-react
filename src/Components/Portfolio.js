@@ -35,7 +35,7 @@ function Portfolio(props) {
 
                 <Link to='opms' className="img-container" onClick={() => updateTitle("opms")}>
                     
-                    <img className="portfolio-img" src={require('../portfolio_photos/OPMS Gold Purple n Pink 2 Page.jpg')} alt="2 page magazine ad, purple and pink background with OPMS gold products floating on left side and text on the right side" />
+                    <img className="portfolio-img" src={require('../portfolio_photos/OPMS Gold Purple n Pink 2 Page.jpg')} alt="2 page magazine ad, purple and pink background with OPMS Gold products floating on left side and text on the right side" />
                     
                 </Link>
 

@@ -3,7 +3,7 @@ import React from 'react';
 function WholeHerbsMag() {
     return (
         <div className="content-area" id="flex-content">
-            <img className="portfolio-item" src={require('../portfolio_photos/Whole Herbs Exploded Bottle 1 Page.jpg')} />
+            <img className="portfolio-item" src={require('../portfolio_photos/Whole Herbs Exploded Bottle 1 Page.jpg')} alt="Whole Herbs bottle with Kratom capsules exploding out of the top, and blocks of text pointing to individual pills" />
             <aside className="portfolio-item-info">
                 <h2>Client:</h2>
                 <p>Whole Herbs Kratom</p>

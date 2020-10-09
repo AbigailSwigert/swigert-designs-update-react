@@ -3,7 +3,7 @@ import '../App.css';
 import {Link, useLocation} from 'react-router-dom';
 import logo from '../assets/swigert_designs_logo_white.png';
 import {updateTitle} from '../App';
-
+// TODO: get title and subtitle to refresh properly when hitting back button
 function Nav() {
     const location = useLocation();
     const currentPath = location.pathname;
@@ -70,8 +70,8 @@ function Nav() {
 
             <header id="full-navbar">
 
-                <h1 id="titleText"></h1> 
-                <h2 id="subtitleText"></h2>
+                <h1 id="titleText">Swigert Designs</h1> 
+                <h2 id="subtitleText">Abigail Swigert</h2>
 
                 <nav>
 
