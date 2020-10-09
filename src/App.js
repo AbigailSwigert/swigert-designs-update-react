@@ -5,7 +5,7 @@ import routes from './routes';
 import Nav from './Components/Nav';
 
 function App() {
-
+// TODO: make all pages responsive
   return (
     <Router>
         <Nav />
