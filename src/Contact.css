@@ -6,14 +6,18 @@
     flex: 1 0 auto;
 }
 
+form {
+    width: 80%;
+}
+
 .blue-border {
     border: solid 3px #8fd3f4;
     border-radius: 5px;
 }
 
 .name-inputs{
-    width: 18vw;
-    height: 5vh;
+    width: 100%;
+    height: 40px;
 }
 
 .label-and-input{
@@ -22,16 +26,19 @@
     align-items: center;
 }
 
+#names-section .label-and-input {
+    width: 40%;
+}
+
 #names-section {
     margin: 20px auto;
     display: flex;
     justify-content: space-between;
-    width: 40vw;
+    width: 100%;
 }
 
 label {
     text-align: left;
-    padding-left: 20px;
     width: 100%;
 }
 
@@ -41,17 +48,15 @@ input {
 
 textarea {
     margin: 8px 0 20px 0;
-    width: 38vw;
-    height: 30vh;
+    width: 100%;
+    height: 200px;
     resize: none;
-    padding: 10px;
 }
 
 ::placeholder {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: rgb(126, 126, 126);
-    font-size: 20px;
 }
 
 #submit {
