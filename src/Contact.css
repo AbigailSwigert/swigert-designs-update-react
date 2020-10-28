@@ -16,14 +16,17 @@ form {
 }
 
 .name-inputs{
-    width: 100%;
+    width: 99%;
     height: 40px;
+    margin: 0;
+    padding: 0;
 }
 
 .label-and-input{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    text-align: left;
 }
 
 #names-section .label-and-input {
@@ -42,15 +45,11 @@ label {
     width: 100%;
 }
 
-input {
-    margin: 5px;
-}
-
 textarea {
-    margin: 8px 0 20px 0;
     width: 100%;
     height: 200px;
     resize: none;
+    margin-bottom: 20px;
 }
 
 ::placeholder {
@@ -92,4 +91,15 @@ textarea {
 .social-icon {
     width: 40px;
     height: 40px;
+}
+
+@media (orientation: portrait) {
+    
+    #names-section .label-and-input {
+        width: 45%;
+    }
+    
+    form {
+        width: 90%;
+    }
 }

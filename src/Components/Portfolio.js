@@ -3,7 +3,7 @@ import '../App.css';
 import {Link} from 'react-router-dom';
 import '../Portfolio.css';
 import {updateTitle} from '../App';
-// TODO: figure out what to do with the back button
+
 function Portfolio(props) {
     return (
         <div className="content-area">

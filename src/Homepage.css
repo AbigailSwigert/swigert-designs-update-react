@@ -56,3 +56,16 @@
         max-width: none;
     }
 }
+
+@media (orientation: portrait) {
+    #circular-img {
+        top: 15%;
+    }
+
+    #bio {
+        width: 80%;
+        right: 5%;
+        top: 35%;
+        font-size: small;
+    }
+}

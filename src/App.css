@@ -21,13 +21,14 @@ html, body {
 
 #navPane {
     width: 30vw;
-    max-width: calc(667px - 1.5vw);
+    max-width: 597px;
     height: 100vh;
     position: fixed;
     margin: 0;
     background-image: linear-gradient(45deg, #84fab0 0%, #8fd3f4 70%);
     padding-left: 3vw;
     padding-top: 15vh;
+    z-index: 3;
 }
 
 #full-navbar {
@@ -37,7 +38,7 @@ html, body {
 
 #titleText {
     font-weight: 600;
-    font-size: 4.25vw;
+    font-size: 3.5vw;
     line-height: 50%;
     margin-top: 50px;
 }
@@ -57,13 +58,6 @@ html, body {
 #navList {
     padding: 0;
     list-style-type: none;
-}
-
-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 50vh;
 }
 
 nav ul {
@@ -116,7 +110,7 @@ nav a:hover {
     }
 
     #navPane {
-        padding-left: 1.5vw;
+        padding-left: 70px;
     }
 
     .content-area {
@@ -125,7 +119,7 @@ nav a:hover {
     }
 
     #titleText {
-        font-size: 100px;
+        font-size: 80px;
     }
 
     #subtitleText {
@@ -133,10 +127,64 @@ nav a:hover {
     }
 
     nav a {
-        font-size: 50px;
+        font-size: 40px;
     }
     
     nav a:hover {
-        font-size: 60px;
+        font-size: 50px;
+    }
+}
+
+@media (orientation: portrait) {
+    #navPane {
+        width: 100vw;
+        max-width: none;
+        height: 70px;
+        padding: 15px 0;
+    }
+
+    .animate {
+        animation: none;
+    }
+
+    #logo {
+        width: 0;
+        height: 0;
+        padding: 0;
+        margin: 0;
+        display: none;
+    }
+
+    #titleText {
+        font-size: xx-large;
+        margin-top: 8px;
+        width: 100vw;
+        text-align: center;
+    }
+
+    #subtitleText {
+        display: none;
+    }
+    
+    nav ul {
+        line-height: unset;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+
+    nav a {
+        font-size: small;
+    }
+
+    nav a:hover {
+        font-size: medium;
+    }
+
+    .content-area {
+        width: 100vw;
+        float: unset;
     }
 }
