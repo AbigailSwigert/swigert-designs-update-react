@@ -67,10 +67,7 @@
 }
 
 @media (orientation: portrait) {
-    #portfolio {
-        padding-top: 100px;
-    }
-
+    
     .portfolio-img {
         width: 40vw;
         height: 40vw;

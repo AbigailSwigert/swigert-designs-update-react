@@ -78,7 +78,7 @@ function Nav() {
                     <ul id="navList">
                         <li><Link to='/' onClick={() => updateTitle("homepage")}>Home Page</Link></li>
 
-                        <li><Link to='/resume' onClick={() => updateTitle("resume")}>Resume</Link></li>
+                        {/* <li><Link to='/resume' onClick={() => updateTitle("resume")}>Resume</Link></li> */}
 
                         <li><Link to='/portfolio' onClick={() => updateTitle("portfolio")}>Portfolio</Link></li>
                         

@@ -59,13 +59,28 @@
 
 @media (orientation: portrait) {
     #circular-img {
-        top: 15%;
+        top: unset;
+        margin-top: 20px;
     }
 
     #bio {
         width: 80%;
-        right: 5%;
-        top: 35%;
+        top: unset;
+        right: unset;
+        left: unset;
+        margin: 170px 0 0 15px;
         font-size: small;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 500px) {
+    #bio {
+        margin: 225px 0 0 15px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 680px) {
+    #bio {
+        margin: 350px 0 0 15px;
     }
 }

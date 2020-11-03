@@ -102,4 +102,14 @@ textarea {
     form {
         width: 90%;
     }
+
+    #formContainer {
+        align-items: unset;
+        flex: unset;
+    }
+
+    #social-icons-group {
+        position: absolute;
+        bottom: 0;
+    }
 }

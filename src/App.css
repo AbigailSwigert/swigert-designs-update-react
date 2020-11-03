@@ -85,7 +85,8 @@ nav a:hover {
 
 #logo {
     position: absolute;
-    width: 250px;
+    width: 80%;
+    max-width: 250px;
     height: auto;
     left: 20px;
     top: 20px;
@@ -183,8 +184,11 @@ nav a:hover {
         font-size: medium;
     }
 
+    /* TODO: Correct responsiveness for shorter phones */
     .content-area {
         width: 100vw;
         float: unset;
+        padding-top: 100px;
+        min-height: calc(100vh - 100px);
     }
 }
