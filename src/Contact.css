@@ -107,9 +107,4 @@ textarea {
         align-items: unset;
         flex: unset;
     }
-
-    #social-icons-group {
-        position: absolute;
-        bottom: 0;
-    }
 }

@@ -85,7 +85,7 @@
     }
 
     .portfolio-item {
-        margin: 120px auto 0 auto;
+        margin: 20px auto 0 auto;
         width: 80%;
     }
 
@@ -97,6 +97,6 @@
 
     .portfolio-item-set {
         width: 80%;
-        margin: 120px auto 0 auto;
+        margin: 20px auto 0 auto;
     }
 }
