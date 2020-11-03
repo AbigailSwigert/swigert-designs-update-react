@@ -5,8 +5,8 @@ import '../Contact.css';
 function Contact() {
 
     const [textAreaPlaceholder, setTextAreaPlaceholder] = useState('Please type your message here...');
-    const [firstNamePlaceholder, setFirstNamePlaceholder] = useState('Ex. Jane');
-    const [lastNamePlaceholder, setLastNamePlaceholder] = useState('Ex. Doe');
+    const [namePlaceholder, setNamePlaceholder] = useState('Ex. Jane');
+    const [emailPlaceholder, setEmailPlaceholder] = useState('Ex. Doe');
 
     return (
         <div className="content-area" style={{display: "flex", flexDirection: "column", height: "100%"}}>
@@ -17,15 +17,15 @@ function Contact() {
 
                     <div id="names-section">
                         <fieldset className="label-and-input">
-                            <label htmlFor="firstName">First Name:</label>
+                            <label htmlFor="name">Name:</label>
 
-                            <input type="text" name="firstName" id="firstName" className="name-inputs blue-border" placeholder={firstNamePlaceholder} onFocus={() => setFirstNamePlaceholder('')} onBlur={() => setFirstNamePlaceholder('Ex. Jane')} required />
+                            <input type="text" name="name" id="name" className="name-inputs blue-border" placeholder={namePlaceholder} onFocus={() => setNamePlaceholder('')} onBlur={() => setNamePlaceholder('Ex. Jane')} required />
                         </fieldset>
 
                         <fieldset className="label-and-input">
-                            <label htmlFor="lastName">Last Name:</label>
+                            <label htmlFor="email">Email:</label>
 
-                            <input type="text" name="lastName" id="lastName" className="name-inputs blue-border" placeholder={lastNamePlaceholder} onFocus={() => setLastNamePlaceholder('')} onBlur={() => setLastNamePlaceholder('Ex. Doe')} required />
+                            <input type="email" name="_replyto" id="email" className="name-inputs blue-border" placeholder={emailPlaceholder} onFocus={() => setEmailPlaceholder('')} onBlur={() => setEmailPlaceholder('Ex. Doe')} required />
                         </fieldset>
                     </div>
 
