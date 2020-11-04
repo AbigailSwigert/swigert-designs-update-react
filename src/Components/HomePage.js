@@ -9,7 +9,7 @@ function HomePage() {
                 <img id="headshot" src={require('../assets/Profile Photo.jpg')} alt="Abigail Swigert" />
             </div>
             <div id="bio">
-                    <p>Hello, my name is Abigail Swigert! I Graduated from UNT in 2018 with a B.A. in Design Management. After graduation, I worked as a Graphic Designer in Downtown Dallas for 2 years. Then, in May of 2020 I enrolled in a full-stack bootcamp to make a career change to software development, after graduating from TEKcamp I accepted a job as a Jr. Developer at TEKsystems Global Services.</p>
+                    <p>Hello, my name is Abigail Swigert! I graduated from UNT in 2018 with a B.A. in Design Management. After graduation, I worked as a Graphic Designer in Downtown Dallas for 2 years. Then, in May of 2020 I enrolled in a full-stack bootcamp to make a career change to software development, after graduating from TEKcamp I accepted a job as a Jr. Developer at TEKsystems Global Services.</p>
 
                     <p>My hobbies include:</p>
 

@@ -16,14 +16,26 @@ function Portfolio(props) {
                 </Link>
 
                 <Link to='puffco' className="img-container" onClick={() => updateTitle("puffco")}>
+                    {/* Switched from GIF to video for better site performance */}
                     
-                    <img className="portfolio-img" src={require('../portfolio_photos/Puff-Co-Peak-Lightning-Full.gif')} alt="GIF of PuffCo Peak Lightning Dab Rig floating in front of lime green background and white smoke" />
+                    {/* <img className="portfolio-img" src={require('../portfolio_photos/Puff-Co-Peak-Lightning-Full.gif')} alt="GIF of PuffCo Peak Lightning Dab Rig floating in front of lime green background and white smoke" /> */}
+
+                    <video className="portfolio-img" autoPlay loop muted playsInline alt="GIF of PuffCo Peak Lightning Dab Rig floating in front of lime green background and white smoke">
+                        <source src={require('../portfolio_photos/Puff-Co-Peak-Lightning-Full.webm')} />
+                        <source src={require('../portfolio_photos/Puff-Co-Peak-Lightning-Full.mp4')} />
+                    </video>
                     
                 </Link>
 
                 <Link to='wazshop' className="img-container" onClick={() => updateTitle("wazshop")}>
+                    {/* Switched from GIF to video for better site performance */}
                     
-                    <img className="portfolio-img" src={require('../portfolio_photos/Waz-Shop.gif')} alt="GIF of Waz Shop logo with a shifting blurred version of the logo behind it, in front of a black and red background" />
+                    {/* <img className="portfolio-img" src={require('../portfolio_photos/Waz-Shop.gif')} alt="GIF of Waz Shop logo with a shifting blurred version of the logo behind it, in front of a black and red background" /> */}
+
+                    <video className="portfolio-img" autoPlay loop muted playsInline alt="GIF of Waz Shop logo with a shifting blurred version of the logo behind it, in front of a black and red background">
+                        <source src={require('../portfolio_photos/Waz-Shop.webm')} />
+                        <source src={require('../portfolio_photos/Waz-Shop.mp4')} />
+                    </video>
                     
                 </Link>
 

@@ -3,7 +3,15 @@ import React from 'react';
 function Puffco() {
     return (
         <div className="content-area" id="flex-content">
-            <img className="portfolio-item" src={require('../portfolio_photos/Puff-Co-Peak-Lightning-Full.gif')} alt="GIF of PuffCo Peak Lightning Dab Rig floating in front of lime green background and white smoke" />
+            {/* Switched from GIF to video for better site performance */}
+        
+            {/* <img className="portfolio-item" src={require('../portfolio_photos/Puff-Co-Peak-Lightning-Full.gif')} alt="GIF of PuffCo Peak Lightning Dab Rig floating in front of lime green background and white smoke" /> */}
+
+            <video className="portfolio-item" autoPlay loop muted playsInline alt="GIF of PuffCo Peak Lightning Dab Rig floating in front of lime green background and white smoke">
+                <source src={require('../portfolio_photos/Puff-Co-Peak-Lightning-Full.webm')} />
+                <source src={require('../portfolio_photos/Puff-Co-Peak-Lightning-Full.mp4')} />
+            </video>
+
             <aside className="portfolio-item-info">
                 <h2>Client:</h2>
                 <p>Partynuts.com</p>
