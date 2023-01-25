@@ -23,7 +23,7 @@
     max-width: 800px;
     background-color: #f2f2f2;
     padding: 20px;
-    margin: 100px auto;
+    margin: 15vh auto;
 }
 
 #music {
@@ -46,12 +46,6 @@
         height: 500px;
     }
 
-    #bio {
-        position: relative;
-        left: 200px;
-        width: 60%;
-        max-width: none;
-    }
 }
 
 @media (orientation: portrait) {
@@ -62,22 +56,20 @@
 
     #bio {
         width: 80%;
-        top: unset;
-        right: unset;
-        left: unset;
-        margin: 170px 0 0 15px;
+        /* margin: 15 auto; */
         font-size: small;
     }
 }
 
-@media (orientation: portrait) and (min-width: 500px) {
+
+@media (max-height: 900px) {
     #bio {
-        margin: 225px 0 0 15px;
+        margin: 50px auto;
     }
 }
 
-@media (orientation: portrait) and (min-width: 680px) {
+@media (min-width: 1555px) {
     #bio {
-        margin: 350px 0 0 15px;
+        font-size: 20px;
     }
 }

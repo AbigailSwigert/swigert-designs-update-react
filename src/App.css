@@ -78,7 +78,6 @@ nav a:hover {
 
 .content-area {
     width: 67vw;
-    max-width: 1333px;
     float: right;
     min-height: 100vh;
 }
@@ -106,17 +105,11 @@ nav a:hover {
     }
 
     body {
-        max-width: 2100px;
         margin: auto;
     }
 
     #navPane {
         padding-left: 70px;
-    }
-
-    .content-area {
-        float: left;
-        margin-left: 680px;
     }
 
     #titleText {
@@ -133,6 +126,10 @@ nav a:hover {
     
     nav a:hover {
         font-size: 50px;
+    }
+
+    .content-area {
+        width: calc(100vw - 697px);
     }
 }
 
