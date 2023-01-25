@@ -40,17 +40,15 @@ function Contact() {
             </div>
 
             <footer id="social-icons-group">
-                <a href="https://twitter.com/abigailswigert">
-                    <img className="social-icon" src={require('../assets/001-twitter.png')} alt="link to Abigail Swigert's Twitter profile" />
-                </a>
 
                 <a href="https://www.linkedin.com/in/abigailswigert">
                     <img className="social-icon" src={require('../assets/002-linkedin.png')} alt="link to Abigail Swigert's LinkedIn profile" />
                 </a>
 
-                <a href="https://www.instagram.com/abigailswigert/">
-                    <img className="social-icon" src={require('../assets/003-instagram.png')} alt="link to Abigail Swigert's Instagram profile" />
+                <a href='https://github.com/AbigailSwigert/'>
+                    <img className='social-icon' src={require('../assets/github-icon.png')} alt="link to Abigail Swigert's GitHub profile" />
                 </a>
+
             </footer>
 
         </div>
