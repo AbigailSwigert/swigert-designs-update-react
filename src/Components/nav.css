@@ -3,6 +3,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
+    border-bottom: 1px solid grey;
+    position: sticky;
+    top: 0;
+    background-color: var(--secondary-dark-grey-color);
 }
 
 .nav-link {

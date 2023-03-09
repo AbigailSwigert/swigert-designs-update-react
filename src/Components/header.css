@@ -1,5 +1,4 @@
 #header {
-    border-bottom: 1px solid grey;
     padding-bottom: 50px;
 }
 
@@ -12,6 +11,7 @@
 #name {
     font-size: 95px;
     background: -webkit-linear-gradient(135deg, var(--primary-green-color), var(--primary-blue-color));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

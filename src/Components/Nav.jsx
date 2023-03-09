@@ -5,13 +5,18 @@ import "./nav.css";
 export default function Nav() {
 	return (
 		<nav>
-			<Link to="." className="nav-link selected">Work</Link>
+			<Link
+				to="."
+				className="nav-link selected"
+			>
+				Work
+			</Link>
 			<img
 				src={require("../assets/swigert_designs_logo.png")}
 				alt="Swigert Designs Logo"
-				height="100px"
+				height="60px"
 			/>
-			<p>About</p>
+			<p className="nav-link">About</p>
 		</nav>
 	);
 }

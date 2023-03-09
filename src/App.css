@@ -4,6 +4,7 @@
     --primary-green-color: #84fab0;
     --primary-blue-color: #8fd3f4;
     --primary-font: 'Poppins', sans-serif;
+    --secondary-dark-grey-color: #0e1213;
 }
 
 * {
@@ -14,6 +15,6 @@
 }
 
 body {
-    background-color: rgb(14, 18, 19);
+    background-color: #0e1213;
     color: whitesmoke;
 }
