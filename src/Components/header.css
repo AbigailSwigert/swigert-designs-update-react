@@ -1,0 +1,17 @@
+#header {
+    border-bottom: 1px solid grey;
+    padding-bottom: 50px;
+}
+
+#intro {
+    max-width: 800px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+#name {
+    font-size: 95px;
+    background: -webkit-linear-gradient(135deg, var(--primary-green-color), var(--primary-blue-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
