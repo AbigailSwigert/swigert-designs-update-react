@@ -12,7 +12,7 @@ export default function ContactMenu() {
 				LinkedIn
 			</a>
 			<a
-				href={require("../assets/Abigail Swigert Designer Resume.pdf")}
+				href={require("../../assets/Abigail Swigert Designer Resume.pdf")}
 				target="_blank"
 				rel="noreferrer noopener"
 			>
