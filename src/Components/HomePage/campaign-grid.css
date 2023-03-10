@@ -8,13 +8,13 @@
     margin-bottom: 50px;
 }
 
-.project {
+.campaign-item {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.project:hover {
+.campaign-item:hover {
     width: 98%;
     height: 98%;
     margin: auto;
@@ -26,7 +26,7 @@
     justify-self: stretch;
 }
 
-.project-img {
+.campaign-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
