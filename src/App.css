@@ -20,9 +20,15 @@ body {
 }
 
 .gradient-text {
-    font-size: 95px;
+    font-size: 9vw;
     background: -webkit-linear-gradient(135deg, var(--primary-green-color), var(--primary-blue-color));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width: 1000px) {
+    .gradient-text {
+        font-size: 95px;
+    }
 }

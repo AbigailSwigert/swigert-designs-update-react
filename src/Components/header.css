@@ -3,7 +3,12 @@
 }
 
 #intro {
+    width: 80vw;
+    margin: 30px auto 0;
+}
+
+/* #intro {
     max-width: 800px;
     margin-top: 100px;
     margin-left: 200px;
-}
+} */

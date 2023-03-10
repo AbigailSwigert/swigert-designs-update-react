@@ -23,6 +23,7 @@ export default function OPMSCampaign() {
 					src={require("../portfolio_photos/OPMS/New OPMS Liquid Partynuts Banner.png")}
 					alt=""
 					className="feature-project-img"
+					style={{'maxWidth': '800px'}}
 				/>
 			</section>
 

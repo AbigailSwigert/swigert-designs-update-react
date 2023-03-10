@@ -1,28 +1,31 @@
 .project-header {
-    width: 80vw;
+    width: 90vw;
     max-width: 1000px;
     margin: 20px auto;
     text-align: center;
 }
 
 .feature-product {
-    width: 80vw;
+    width: 90vw;
     max-width: 1500px;
+    height: auto;
     margin: auto;
 }
 
 .feature-project-img {
+    width: 90vw;
     display: block;
     margin: auto;
 }
 
 .sm-project-img {
-    width: 400px;
+    width: 90vw;
     height: auto;
+    margin-bottom: 20px;
 }
 
 .sm-project-grid {
-    width: 80vw;
+    width: 90vw;
     max-width: 1500px;
     margin: 20px auto;
     display: flex;
@@ -37,8 +40,7 @@
 }
 
 .project-carousel {
-    /* height: 800px; */
-    width: 80vw;
+    width: 90vw;
     max-width: 1500px;
     margin: auto;
 }
@@ -46,4 +48,24 @@
 .attribution {
     color: whitesmoke;
     text-decoration: none;
+}
+
+.legend {
+    display: none;
+}
+
+@media screen and (min-width: 1000px) {
+    .project-header {
+        width: 80vw;
+    }
+
+    .sm-project-img {
+        width: 30%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .project-carousel {
+        width: 80vw;
+    }
 }

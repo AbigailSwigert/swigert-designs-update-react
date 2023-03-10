@@ -14,7 +14,7 @@ export default function Nav() {
 			<img
 				src={require("../assets/swigert_designs_logo.png")}
 				alt="Swigert Designs Logo"
-				height="60px"
+				id="logo"
 			/>
 			<p className="nav-link">About</p>
 		</nav>

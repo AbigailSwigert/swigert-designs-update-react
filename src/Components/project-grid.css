@@ -1,11 +1,11 @@
 #grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 800px 800px 800px;
+    grid-template-rows: auto;
     width: 80vw;
     max-width: 1500px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .project {
