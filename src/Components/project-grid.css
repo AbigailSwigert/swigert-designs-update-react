@@ -1,16 +1,24 @@
 #grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 800px 800px 800px 800px;
+    grid-template-rows: 800px 800px 800px;
     width: 80vw;
     max-width: 1500px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .project {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.project:hover {
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    border: 3px solid var(--primary-blue-color);
 }
 
 .large {
