@@ -7,11 +7,3 @@
     margin-top: 100px;
     margin-left: 200px;
 }
-
-#name {
-    font-size: 95px;
-    background: -webkit-linear-gradient(135deg, var(--primary-green-color), var(--primary-blue-color));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}

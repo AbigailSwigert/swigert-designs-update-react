@@ -6,7 +6,7 @@ export default function Header() {
 		<section id="header">
 			<div id="intro">
 				<p>Hey there! I'm</p>
-				<h1 id="name">Abigail Swigert,</h1>
+				<h1 className="gradient-text">Abigail Swigert,</h1>
 				<p>
 					an award-winning multidisciplinary graphic designer based in Carrollton, Texas. I graduated from the
 					University of North Texas with a B.A in Design Management, and I have over 5 years of experience working with

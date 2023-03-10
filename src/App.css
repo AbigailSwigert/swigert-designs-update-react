@@ -18,3 +18,11 @@ body {
     background-color: #0e1213;
     color: whitesmoke;
 }
+
+.gradient-text {
+    font-size: 95px;
+    background: -webkit-linear-gradient(135deg, var(--primary-green-color), var(--primary-blue-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

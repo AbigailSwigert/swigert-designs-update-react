@@ -5,6 +5,7 @@ import Header from './Components/Header';
 import Nav from './Components/Nav';
 import ProjectGrid from './Components/ProjectGrid';
 import ContactMenu from './Components/ContactMenu';
+import OPMSCampaign from './Components/OPMSCampaign';
 
 function App() {
 
@@ -12,14 +13,13 @@ function App() {
     <Router>
       <Nav />
       <Routes>
-        <Route path="/"
-          exact
-          element={
+        <Route path="/" exact element={
           <>
             <Header />
             <ProjectGrid />
-          </>}
-        />
+          </>
+        }/>
+        <Route path='opms-ad-campaign' element={<OPMSCampaign />} />
       </Routes>
       <ContactMenu />
     </Router>

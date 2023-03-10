@@ -1,0 +1,49 @@
+.project-header {
+    width: 80vw;
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.feature-product {
+    width: 80vw;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.feature-project-img {
+    display: block;
+    margin: auto;
+}
+
+.sm-project-img {
+    width: 400px;
+    height: auto;
+}
+
+.sm-project-grid {
+    width: 80vw;
+    max-width: 1500px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sm-project-title {
+    width: 100%;
+    margin: 10px 0;
+    color: var(--primary-blue-color);
+}
+
+.project-carousel {
+    /* height: 800px; */
+    width: 80vw;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.attribution {
+    color: whitesmoke;
+    text-decoration: none;
+}
