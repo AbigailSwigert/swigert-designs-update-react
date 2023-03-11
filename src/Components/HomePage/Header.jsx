@@ -5,17 +5,13 @@ export default function Header() {
 	return (
 		<section id="header">
 			<div id="intro">
-				<p>Hey there! I'm</p>
+				<p>Welcome! I'm</p>
 				<h1 className="gradient-text">Abigail Swigert,</h1>
 				<p>
-					an award-winning multidisciplinary graphic designer based in Carrollton, Texas. I graduated from the
-					University of North Texas with a B.A in Design Management, and I have over 5 years of experience working with
-					individuals and organizations of all sizes to craft engaging print and digital marketing collateral.
-					<br />
-					<br />
-					When I'm not honing my design skills, I enjoy getting lost in fantasy and science fiction stories, and
-					examining the themes and deeper meanings of my favorite games, movies, and TV shows. You can find me
-					supporting and hosting events for DFW Creatives and Bold Idea.
+					an Advertising and Marketing Designer based in Carrollton, Texas. I studied Graphic Communication in high
+					school, while working in my school's full-service print shop, then went on to get my B.A. in Design Management
+					from UNT. After graduating, I worked as a Graphic Designer at an agency in Dallas for 2 years. Currently I
+					work as a freelance Designer helping individuals and organizations build their brands.
 				</p>
 			</div>
 		</section>

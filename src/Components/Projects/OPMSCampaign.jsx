@@ -54,54 +54,21 @@ export default function OPMSCampaign() {
 						src={require("../../portfolio_photos/OPMS/OPMS Gold Magazine Mockup.png")}
 						alt="OPMS Kratom 2-page magazine spread featuring floating OPMS GOLD capsules products floating on the left page and text on the right"
 					/>
-					<p className="legend">
-						O.P.M.S. Gold Magazine Mockup
-						<br />
-						<small>
-							<a
-								href="http://www.freepik.com"
-								className="attribution"
-							>
-								Mockup design provided by Aleksandr_Samochernyi / Freepik
-							</a>
-						</small>
-					</p>
+					<p className="legend">O.P.M.S. Gold Magazine Mockup</p>
 				</div>
 				<div>
 					<img
 						src={require("../../portfolio_photos/OPMS/OPMS Silver Magazine Mockup.png")}
 						alt="OPMS Kratom 2-page magazine spread featuring floating OPMS Silver capsules and powder products floating on the left page and text on the right"
 					/>
-					<p className="legend">
-						O.P.M.S. Silver Magazine Mockup
-						<br />
-						<small>
-							<a
-								href="http://www.freepik.com"
-								className="attribution"
-							>
-								Mockup design provided by Aleksandr_Samochernyi / Freepik
-							</a>
-						</small>
-					</p>
+					<p className="legend">O.P.M.S. Silver Magazine Mockup</p>
 				</div>
 				<div>
 					<img
 						src={require("../../portfolio_photos/OPMS/OPMS Liquid Magazine Mockup.png")}
 						alt="OPMS Kratom 2-page magazine spread featuring floating OPMS Liquid products floating on the left page and text on the right"
 					/>
-					<p className="legend">
-						O.P.M.S. Liquid Magazine Mockup
-						<br />
-						<small>
-							<a
-								href="http://www.freepik.com"
-								className="attribution"
-							>
-								Mockup design provided by Aleksandr_Samochernyi / Freepik
-							</a>
-						</small>
-					</p>
+					<p className="legend">O.P.M.S. Liquid Magazine Mockup</p>
 				</div>
 			</Carousel>
 		</section>
