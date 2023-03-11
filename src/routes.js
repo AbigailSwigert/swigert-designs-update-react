@@ -1,5 +1,5 @@
 import React from 'react';
-import {Switch,Route} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 import HomePage from './Components/HomePage';
 import Resume from './Components/Resume';
 import Portfolio from './Components/Portfolio';
@@ -12,16 +12,16 @@ import Opms from './Components/Opms';
 import YollyDolly from './Components/YollyDolly';
 
 export default(
-    <Switch>
-        <Route path='/' exact component={HomePage} />
-        <Route path='/resume' component={Resume} />
-        <Route path='/portfolio' component={Portfolio} />
-        <Route path='/contact' component={Contact} />
-        <Route path='/wholeherbsinsta' component={WholeHerbsInsta} />
-        <Route path='/puffco' component={Puffco} />
-        <Route path='/wazshop' component={WazShop} />
-        <Route path='/wholeherbsmag' component={WholeHerbsMag} />
-        <Route path='/opms' component={Opms} />
-        <Route path='/yolly_dolly' component={YollyDolly} />
-    </Switch>
+    <Routes>
+        <Route path='/' exact element={<HomePage />} />
+        <Route path='/resume' element={<Resume />} />
+        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/wholeherbsinsta' element={<WholeHerbsInsta />} />
+        <Route path='/puffco' element={<Puffco />} />
+        <Route path='/wazshop' element={<WazShop />} />
+        <Route path='/wholeherbsmag' element={<WholeHerbsMag />} />
+        <Route path='/opms' element={<Opms />} />
+        <Route path='/yolly_dolly' element={<YollyDolly />} />
+    </Routes>
 );
