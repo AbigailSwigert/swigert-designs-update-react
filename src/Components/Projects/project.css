@@ -1,0 +1,81 @@
+.campaign {
+    margin-bottom: 50px;
+}
+
+.project-header {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.feature-project {
+    width: 90vw;
+    max-width: 1500px;
+    height: auto;
+    margin: auto;
+}
+
+.feature-project-img {
+    width: 90vw;
+    max-width: 1500px;
+    display: block;
+    margin: auto;
+}
+
+.project-img {
+    width: 90vw;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.project-grid {
+    width: 90vw;
+    max-width: 1500px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-title {
+    width: 90vw;
+    max-width: 1500px;
+    margin: 10px auto;
+    color: var(--primary-blue-color);
+}
+
+.project-carousel {
+    width: 90vw;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.attribution {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.legend {
+    display: none;
+}
+
+@media screen and (min-width: 1000px) {
+    .project-header {
+        width: 80vw;
+    }
+
+    .project-img {
+        width: 30%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .project-carousel {
+        width: 80vw;
+    }
+
+    .legend {
+        display: unset;
+    }
+}

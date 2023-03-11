@@ -1,0 +1,40 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    border-bottom: 1px solid grey;
+    position: sticky;
+    top: 0;
+    background-color: var(--secondary-dark-grey-color);
+    z-index: 10;
+}
+
+#logo {
+    height: 50px;
+}
+
+.nav-link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline 5px var(--primary-blue-color);
+    text-underline-offset: 5px;
+}
+
+.nav-link:hover {
+    text-decoration: underline 5px var(--primary-green-color);
+    text-underline-offset: 5px;
+}
+
+@media screen and (min-width: 1000px) {
+    #logo {
+        height: 75px;
+    }
+
+    nav {
+        padding: 20px 100px;
+    }
+}

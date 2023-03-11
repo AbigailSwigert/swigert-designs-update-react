@@ -1,0 +1,35 @@
+#contact-menu {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    float: right;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-menu a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#contact-menu a:hover {
+    color: var(--primary-green-color);
+    text-decoration: underline 2px var(--primary-green-color);
+}
+
+#contact-menu a:visited {
+    color: var(--primary-blue-color);
+}
+
+#contact-menu a:visited:hover {
+    color: var(--primary-green-color);
+}
+
+@media screen and (min-width: 2150px) {
+    #contact-menu {
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+    }
+}
