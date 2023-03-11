@@ -18,12 +18,12 @@ export default function CampaignGrid() {
 			</Link>
 
 			<Link
-				to="/email-campaign"
+				to="/partynuts-campaign"
 				className="campaign-item"
 			>
 				<img
-					src={require("../../portfolio_photos/Email Marketing/Candy-King-Vape-Out-of-This-World.gif")}
-					alt="Candy Kind vape juice floating above the moon"
+					src={require("../../portfolio_photos/Partynuts/Candy-King-Vape-Out-of-This-World.gif")}
+					alt="Candy King vape juice floating above the moon"
 					className="campaign-img"
 				/>
 			</Link>
