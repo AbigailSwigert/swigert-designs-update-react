@@ -11,7 +11,7 @@ export default function PartynutsCampaign() {
 
 	const imageObjects = [
 		{
-			imagePath: require("../../portfolio_photos/Partynuts/Candy-King-Vape-Out-of-This-World.gif"),
+			imagePath: require("../../portfolio_photos/Partynuts/Candy-King-Vape-Out-of-This-World.jpg"),
 			alt: "Candy King vape juice floating above the moon",
 		},
 		{

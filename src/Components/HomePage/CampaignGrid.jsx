@@ -4,7 +4,6 @@ import "./campaign-grid.css";
 
 export default function CampaignGrid() {
 	return (
-		// TODO: Compress new images for web viewing
 		<main id="grid-container">
 			<Link
 				to="/opms-ad-campaign"
@@ -22,7 +21,7 @@ export default function CampaignGrid() {
 				className="campaign-item"
 			>
 				<img
-					src={require("../../portfolio_photos/Partynuts/Candy-King-Vape-Out-of-This-World.gif")}
+					src={require("../../portfolio_photos/Partynuts/Candy-King-Vape-Out-of-This-World.jpg")}
 					alt="Candy King vape juice floating above the moon"
 					className="campaign-img"
 				/>
